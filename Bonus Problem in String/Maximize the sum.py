@@ -24,9 +24,7 @@ def fun(arr1,n1,arr2,n2):
         elif arr1[i]>arr2[j]:
             s2+=arr2[j]
             j+=1
-            # else:
-            #     max_sum+=max(s1,s2)
-    # max_sum+=max(s1,s2)
+
     while i<n1:
         s1+=arr1[i]
         i+=1
